@@ -13,7 +13,7 @@ const calcularNegativo = computed(() => valorInicial.value / (1 - desviacion.val
 <template>
   <div class="zero-wrapper">
     <div class="max-w-md p-6 mx-auto space-y-6 bg-gray-200 border-4 border-yellow-500 shadow-lg rounded-xl">
-      <h2 class="text-2xl font-extrabold tracking-widest text-center text-orange-400">Calculadora de Desviación</h2>
+      <h2 class="text-2xl font-extrabold tracking-widest text-center text-orange-400">Frequency Hack Calculator</h2>
       <div>
         <label class="block text-sm font-medium text-gray-200">Valor Inicial</label>
         <input type="number" v-model.number="valorInicial"
