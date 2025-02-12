@@ -31,6 +31,7 @@ const calcularNegativo = computed(() => valorInicial.value / (1 - desviacion.val
             class="font-semibold text-red-400">{{ calcularNegativo.toFixed(0) }}</span></p>
       </div>
     </div>
+    <span class="py-4 text-xs text-gray-600">Made with <span class="text-red-500">♥</span> by <strong class="text-blue-600">DallasWK</strong></span>
   </div>
 </template>
 
